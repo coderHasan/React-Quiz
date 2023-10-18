@@ -2,7 +2,7 @@ import Video from "./Video";
 
 const Videos = () => {
   return (
-    <div className="w-full gap-5 grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] justify-center">
+    <div className="w-full gap-5 grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] justify-items-center">
       <Video />
       <Video />
       <Video />
