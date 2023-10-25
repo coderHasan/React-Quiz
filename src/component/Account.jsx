@@ -1,5 +1,5 @@
 import { BiUserCircle } from "react-icons/bi";
-
+import { Link } from "react-router-dom";
 const Account = () => {
   return (
     <div>
@@ -7,7 +7,8 @@ const Account = () => {
         <span className="">
           <BiUserCircle size={30} />
         </span>
-        <a href="">Signup</a>
+        <Link to="/signup">Signup</Link>
+        <Link to="/login">Login</Link>
         {/* <span>LogOut</span> */}
       </div>
     </div>

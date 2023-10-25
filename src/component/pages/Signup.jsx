@@ -40,7 +40,7 @@ const Signup = () => {
           <CheckBox text="I agree to Terms &amp; Conditions" />
 
           <Button className="bg-green-500 py-2 text-center rounded-md text-base font-bold uppercase cursor-pointer hover:bg-black hover:text-white transition-all duration-300 ease-in-out">
-            Submit now
+            <span>Submit now</span>
           </Button>
 
           <div className="flex gap-1 justify-center group">
